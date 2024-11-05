@@ -4,8 +4,6 @@
     In this example the blade exit angles are fixed and only degree of reaction changes between the rows to match the massflow
 '''
 #%% Import Library
-import sys
-sys.path.insert(0,'../../')
 from td3 import PassageType
 from td3 import TurbineSpool, Inlet, RowType, BladeRow, Passage, Outlet
 from td3.enums import MassflowConstraint
