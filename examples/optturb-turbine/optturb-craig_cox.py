@@ -6,6 +6,7 @@
 #%% Import Library
 import sys
 sys.path.insert(0,'../../')
+import turbodesign as td3
 from td3 import PassageType
 from td3 import TurbineSpool, Inlet, RowType, BladeRow, Passage, Outlet
 from td3.enums import MassflowConstraint

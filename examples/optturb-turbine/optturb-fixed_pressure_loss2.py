@@ -7,12 +7,12 @@
 '''
 #%% Import Library
 import sys
-sys.path.insert(0,'../../')
-from td3 import PassageType
-from td3 import TurbineSpool, Inlet, RowType, BladeRow, Passage,Outlet
-from td3.enums import MassflowConstraint
-from td3.coolant import Coolant
-from td3.loss.turbine import FixedPressureLoss
+sys.path.insert(0, '../../')
+from turbodesign import PassageType
+from turbodesign import TurbineSpool, Inlet, RowType, BladeRow, Passage,Outlet
+from turbodesign.enums import MassflowConstraint
+from turbodesign.coolant import Coolant
+from turbodesign.loss.turbine import FixedPressureLoss
 import numpy as np 
 from cantera import Solution
 

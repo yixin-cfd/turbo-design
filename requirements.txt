@@ -5,3 +5,4 @@ numpy>1.80
 scipy
 cantera
 findiff
+requests

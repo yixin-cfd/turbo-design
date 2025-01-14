@@ -6,6 +6,8 @@
     In this example the blade exit angles are fixed and only degree of reaction changes between the stage to match the massflow
 '''
 #%% Import Library
+import sys
+sys.path.insert(0, '../../')
 from turbodesign import PassageType
 from turbodesign import TurbineSpool, Inlet, RowType, BladeRow, Passage, Outlet
 from turbodesign.enums import MassflowConstraint

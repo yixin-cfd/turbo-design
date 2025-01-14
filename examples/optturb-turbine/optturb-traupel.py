@@ -3,12 +3,12 @@
     2 stage cooled turbine
 
 '''
-
+#%%
 import sys
 sys.path.insert(0,'../../')
-from td3 import CoolingType, LossType, Units, TurbineSpool, Inlet, RowType, BladeRow
-from td3.coolant import Coolant
-from td3.loss.turbine import Traupel
+from turbodesign import CoolingType, LossType, Units, TurbineSpool, Inlet, RowType, BladeRow
+from turbodesign.coolant import Coolant
+from turbodesign.loss.turbine import Traupel
 import numpy as np 
 from cantera import Solution
 

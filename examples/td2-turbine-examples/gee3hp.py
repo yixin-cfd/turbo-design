@@ -5,10 +5,10 @@
 '''
 
 import sys
-sys.path.insert(0,'../')
-from td3 import CoolingType, Units, Spool, Inlet, RowType, BladeRow
-from td3.coolant import Coolant
-from td3.loss
+sys.path.insert(0,'../../')
+from turbodesign import CoolingType, Units, Spool, Inlet, RowType, BladeRow
+from turbodesign.coolant import Coolant
+# from td3.loss
 import numpy as np 
 from cantera import Solution
 
@@ -66,4 +66,6 @@ spool.fluid = fluid
 
 # spool.plot_geometry()
 spool.solve() # This also initializes streamlines
+spool.plot()
+spool.plot_velocity_triangles()
 print('check')
